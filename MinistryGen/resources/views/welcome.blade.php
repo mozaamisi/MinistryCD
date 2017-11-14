@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <!-- Styles -->
         <style>
@@ -65,30 +66,45 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
+        <div class="flex-top position-ref full-height">
+
+
+            {{--@if (Route::has('login'))--}}
+                {{--<div class="top-right links">--}}
+                    {{--@auth--}}
+                        {{--<a href="{{ url('/home') }}">Home</a>--}}
+                    {{--@else--}}
+                        {{--<a href="{{ route('login') }}">Login</a>--}}
+                        {{--<a href="{{ route('register') }}">Register</a>--}}
+                    {{--@endauth--}}
+                {{--</div>--}}
+            {{--@endif--}}
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Ministries
+                </div>
+                <div>
+                    <ul>
+                    <li class="fa fa-align-left" >
+                     {{--<a href id="menu-toggle"><i class="topnav-icons fa fa-align-left w3-hide-large w3-left w3-bar-item w3-button" onclick="open_menu()" title="Menu">--}}
+                            <a href="/">Home</a>
+                            <a href="/about">About</a>
+                            <a href="/contact">Contact</a>
+                            <a href="/vision">vision</a>
+                            <a href="/home">home</a>
+                            {{--<a href="https://laravel-news.com">News</a>--}}
+                            {{--<a href="https://forge.laravel.com">Forge</a>--}}
+                            {{--<a href="https://github.com/laravel/laravel">GitHub</a>--}}
+                     {{--</a>--}}
+
+                    </li>
+                    </ul>
+
+
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+
             </div>
         </div>
     </body>
