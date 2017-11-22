@@ -14,9 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/index',function()
+Route::get('/master',function()
 {
-    return view('index');
+    return view('master');
 });
 Route::get('/contact',function()
 {
@@ -40,4 +40,8 @@ Route::get('/about',function()
     return view('about');
 });
 
+Route::get('/login',function ()
+{
+    return view('login');
+});
 

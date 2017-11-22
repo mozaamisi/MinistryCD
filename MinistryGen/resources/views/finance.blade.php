@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Real Estate | Finance</title>
+    <title>Daniel Generation Ministries | Finance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -23,7 +24,7 @@
     <div class="main">
         <!-- header -->
         <header>
-            <h1><a href="index.html" id="logo"></a></h1>
+            {{--<h1><a href="index.html" id="logo"></a></h1>--}}
             <div class="wrapper">
                 <ul id="icons">
                     <li><a href="#" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
@@ -33,19 +34,14 @@
             </div>
             <nav>
                 <ul id="menu">
-                    {{--<li><a href="index.html">Main Page</a></li>--}}
-                    {{--<li><a href="buying.html">Buying Estate</a></li>--}}
-                    {{--<li><a href="selling.html">Selling Estate</a></li>--}}
-                    {{--<li><a href="renting.html">Renting Estate</a></li>--}}
-                    {{--<li id="menu_active"><a href="finance.html">Finance</a></li>--}}
-                    {{--<li class="end"><a href="contacts.html">Contact Us</a></li>--}}
-                    <li id="menu_active"><a href="index">Main Page</a></li>
-                    <li><a href="home">home</a></li>
+                    {{--<li id="menu_active"><a href="index">Main Page</a></li>--}}
+                    <li ><a href="index">Main Page</a></li>
+                    {{--<li><a href="home">home</a></li>--}}
                     {{--<li><a href="buying">Buying Estate</a></li>--}}
-                    <li><a href="about">About</a></li>
+                    {{--<li><a href="about">About</a></li>--}}
                     {{--<li><a href="renting">Renting Estate</a></li>--}}
                     <li><a href="finance">Finance</a></li>
-                    <li class="end"><a href="contact">Contact Us</a></li>
+                    {{--<li class="end"><a href="contact">Contact Us</a></li>--}}
                 </ul>
             </nav>
         </header>
@@ -67,92 +63,9 @@
                         </div>
                         <a href="#" class="button">Read more</a> </div>
                 </article>
-                {{--<article class="col2">--}}
-                    {{--<form id="form_1" action="#" method="post">--}}
-                        {{--<div class="pad1">--}}
-                            {{--<h3>Find Your Property</h3>--}}
-                            {{--<div class="row"> City &amp; State, or Zip:<br>--}}
-                                {{--<input type="text" class="input">--}}
-                            {{--</div>--}}
-                            {{--<div class="row_select"> Search Area:<br>--}}
-                                {{--<select>--}}
-                                    {{--<option>&nbsp;</option>--}}
-                                    {{--<option>...</option>--}}
-                                    {{--<option>...</option>--}}
-                                {{--</select>--}}
-                            {{--</div>--}}
-                            {{--<div class="row_select">--}}
-                                {{--<div class="cols"> Price Range:<br>--}}
-                                    {{--<select>--}}
-                                        {{--<option>&nbsp;</option>--}}
-                                        {{--<option>...</option>--}}
-                                        {{--<option>...</option>--}}
-                                    {{--</select>--}}
-                                {{--</div>--}}
-                                {{--<div class="cols pad_left1"> to:<br>--}}
-                                    {{--<select>--}}
-                                        {{--<option>&nbsp;</option>--}}
-                                        {{--<option>...</option>--}}
-                                        {{--<option>...</option>--}}
-                                    {{--</select>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row_select">--}}
-                                {{--<div class="cols"> Bedroom(s):<br>--}}
-                                    {{--<select>--}}
-                                        {{--<option>&nbsp;</option>--}}
-                                        {{--<option>...</option>--}}
-                                        {{--<option>...</option>--}}
-                                    {{--</select>--}}
-                                {{--</div>--}}
-                                {{--<div class="cols pad_left1"> Bathroom(s):<br>--}}
-                                    {{--<select>--}}
-                                        {{--<option>&nbsp;</option>--}}
-                                        {{--<option>...</option>--}}
-                                        {{--<option>...</option>--}}
-                                    {{--</select>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                            {{--<div class="row_select pad_bot1">--}}
-                                {{--<div class="cols"> Radius:<br>--}}
-                                    {{--<select>--}}
-                                        {{--<option>&nbsp;</option>--}}
-                                        {{--<option>...</option>--}}
-                                        {{--<option>...</option>--}}
-                                    {{--</select>--}}
-                                {{--</div>--}}
-                                {{--<div class="cols pad_left1"> <a href="#" class="button">Proposals</a> </div>--}}
-                            {{--</div>--}}
-                            {{--Know exactly what you want? <br>--}}
-                            {{--Try our <a href="#">Advanced Search</a> </div>--}}
-                    {{--</form>--}}
-                {{--</article>--}}
+
             </div>
-            {{--<div class="wrapper">--}}
-                {{--<article class="col1">--}}
-                    {{--<div class="pad2">--}}
-                        {{--<h2 class="pad_bot1">Financing Center</h2>--}}
-                        {{--<div class="wrapper">--}}
-                            {{--<figure class="left marg_right1"><img src="images/page5_img2.jpg" alt=""></figure>--}}
-                            {{--<p>Integer dui leo, dignissim ut interdum ac, ultricies a risus. Cum sociis<br>--}}
-                                {{--natoque penatibus et magnis dis parturient montes, nascetur ridiculus<br>--}}
-                                {{--mus. Curabitur dignissim nunc sit amet odio pharetra hendrerit. Nulla <br>--}}
-                                {{--justo ante, posuere sed hendrerit et, lacinia ultricies ligula. Integer ac <br>--}}
-                                {{--lacus vel massa venenatis suscipit in vel nulla. Donec quis placerat erat. Nam id lectus at lacus ullamcorper viverra. Mauris lacinia rutrum purus <br>--}}
-                                {{--quis pretium.</p>--}}
-                        {{--</div>--}}
-                        {{--<p>Pellentesque in tortor quam. Quisque et risus dolor, in consequat nunc. Vivamus sagittis consectetur nisi eget luctus. Maecenas pellentesque placerat dui in iaculis. Aenean sit amet felis risus. Morbi vel nisl eget purus dignissim sodales sit amet ut quam. Sed rutrum molestie cursus. Nam mattis pellentesque leo quis tempus. Aenean risus tortor, porttitor a feugiat id, facilisis auctor felis. Morbi fringilla, dui sed pulvinar pharetra, nisi quam luctus nisi, non rutrum lorem arcu sit amet neque.</p>--}}
-                        {{--<a href="#" class="button">Read more</a> </div>--}}
-                {{--</article>--}}
-                {{--<article class="col2">--}}
-                    {{--<div class="pad1">--}}
-                        {{--<h3>Did You Know?</h3>--}}
-                        {{--<p><strong>Vestibulum imperdiet ante sit amet tortor pellentesque volutpat. </strong></p>--}}
-                        {{--<p>Sed dapibus mi sit amet justo faucibus nec porttitor magna feugiat. Sed vulputate consequat bibendum. Curabitur mollis posuere lectus, quis mattis libero dictum vitae. Curabitur sollicitudin, purus in fringilla lobortis, lacus nulla faucibus ipsum, porta.<br>--}}
-                            {{--congue lorem nibh ac lectus. Nunc interdum pulvinar semid metus lacus, in eleifend metus.</p>--}}
-                        {{--<a href="#" class="button">Read more</a> </div>--}}
-                {{--</article>--}}
-            {{--</div>--}}
+
         </section>
     </div>
 </div>
@@ -160,7 +73,7 @@
 <div class="body4">
     <div class="main">
         <!-- footer -->
-        <footer> <span class="call">Call Center: <span>1-800-567-8934</span></span> Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
+        <footer> <span class="call">Call for help: <span>0611949968</span></span> Copyright &copy; <a href="#">Domain Name</a> All Rights Reserved<br>
             Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a>
             <!-- {%FOOTER_LINK} -->
         </footer>

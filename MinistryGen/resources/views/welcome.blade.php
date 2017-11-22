@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,7 +92,7 @@
                             <a href="/">Home</a>
                             <a href="/about">About</a>
                             <a href="/contact">Contact</a>
-                            <a href="/vision">vision</a>
+                            {{--<a href="/vision">vision</a>--}}
                             <a href="/home">home</a>
                             {{--<a href="https://laravel-news.com">News</a>--}}
                             {{--<a href="https://forge.laravel.com">Forge</a>--}}
