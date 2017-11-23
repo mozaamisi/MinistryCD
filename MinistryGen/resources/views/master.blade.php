@@ -29,9 +29,9 @@
             {{--<h1><a href="index.html" id="logo"></a></h1>--}}
             <div class="wrapper">
                 <ul id="icons">
-                    <li><a href="https://www.facebook.com/" class="normaltip"><img src="images/icon1.jpg" alt=""></a></li>
-                    <li><a href="#" class="normaltip"><img src="images/icon2.jpg" alt=""></a></li>
-                    <li><a href="#" class="normaltip"><img src="images/icon3.jpg" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/" class="normaltip"><img src="images/icon1.jpg" style="width: 100%; height: auto;"></a></li>
+                    <li><a href="#" class="normaltip"><img src="images/icon2.jpg"  style="max-width: 100%; height: auto;"></a></li>
+                    <li><a href="#" class="normaltip"><img src="images/icon3.jpg" style="max-width: 100%; height: auto;"></a></li>
                 </ul>
             </div>
             <nav>

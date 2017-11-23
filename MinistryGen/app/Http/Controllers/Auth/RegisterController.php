@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\NewUser;
 use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
@@ -27,10 +28,11 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+//    protected $redirectTo = '/home';
 
     /**
      * Create a new controller instance.
+     *
      *
      * @return void
      */
@@ -45,14 +47,14 @@ class RegisterController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $data)
-    {
-        return Validator::make($data, [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
-        ]);
-    }
+//    protected function validator(array $data)
+//    {
+//        return Validator::make($data, [
+//            'name' => 'required|string|max:255',
+//            'email' => 'required|string|email|max:255|unique:users',
+//            'password' => 'required|string|min:6|confirmed',
+//        ]);
+//    }
 
     /**
      * Create a new user instance after a valid registration.
@@ -62,10 +64,15 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+//        return User::create([
+//            'name' => $data['name'],
+//            'email' => $data['email'],
+//            'password' => bcrypt($data['password']),
+//        ]);
+    }
+    public function edit($id)
+    {
+        $user=NewUser::where('id',$id)->first();
+        return view('users.edit',compact('user'));
     }
 }

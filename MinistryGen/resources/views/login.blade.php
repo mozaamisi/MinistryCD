@@ -3,6 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
     <meta charset="utf-8">
     <title>Daily UI - Day 1 Sign In</title>
 
@@ -21,7 +22,7 @@
     <div class="top">
         <h1 id="title" class="hidden"><span id="logo"> <span></span></span></h1>
     </div>
-    <div class="login-box animated fadeInUp">
+    <div class="login-box animated fadeInUp" >
         <div class="box-header">
             <h2>Log In</h2>
         </div>
