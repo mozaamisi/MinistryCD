@@ -44,4 +44,13 @@ Route::get('/login',function ()
 {
     return view('login');
 });
+Route::get('/',function()
+{
+
+    return view('login');
+}
+);
+//route to show login form
+//Route::get('login',array('uses'=>'HomeController@show'));
+
 
